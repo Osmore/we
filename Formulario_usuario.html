@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Style.css">
+  <title> Registro usuario </title>
+</head>
+<body>
+  <div class="logo">
+    <img src="Captura.PNG" height="80" width="250">
+      </div>
+  <section class="form-register">
+    <h4>Registro usuario</h4>
+    <form id="registrofrom" action="menu.html" method="post" onsubmit="return validarformulario()">
+      <unput class="controls" type="email" name="correo" id="correo" placeholder="correo electronico">
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre de usuario">
+    <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+    <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Confirme su contraseña">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese correo electronico">
+    <select name="identificación" id="identificación">
+      <option value="0">seleccione tipo de identificación</option>
+      <option value="1">Cedula de ciudadania</option>
+      <option value="3">Cedula de extranjeria</option>
+    
+    </select>
+      
+
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="login.html">¿Ya tengo Cuenta?</a></p>
+     <center><a href="menu.html"> Volver Atrás</a>
+</center>
+  </section>
+
+
+</body>
+</html>
